@@ -12,7 +12,7 @@ import javafx.scene.shape.Circle;
  * x-velocity and y-velocity of the circle. Speeds and locations are
  * adjusted using setter and getter methods.
  * 
- * @author Le Qi
+ * @author leqi
  */
 public abstract class Enemy {
 

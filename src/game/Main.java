@@ -20,7 +20,6 @@ import javafx.stage.*;
  * fire instead of one, making the game significantly easier.
  *
  * @author leqi
- *
  */
 public class Main extends Application {
 
