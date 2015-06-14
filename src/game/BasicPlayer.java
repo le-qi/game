@@ -2,14 +2,14 @@ package game;
 
 import java.util.ArrayList;
 
+/**
+ * The BasicPlayer class is a subclass of the Player class. A
+ * BasicPlayer only shoots one bullet at a time.
+ * 
+ * @author Le Qi
+ */
 public class BasicPlayer extends Player {
-	/**
-	 * The BasicPlayer class is a subclass of the Player class. A
-	 * BasicPlayer only shoots one bullet at a time.
-	 * 
-	 * @author Le Qi
-	 */
-	
+
 	public BasicPlayer() {
 		super();
 	}

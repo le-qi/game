@@ -2,13 +2,13 @@ package game;
 
 import java.util.ArrayList;
 
+/**
+ * CheatPlayer is a subclass of the Player class. Objects of the class
+ * will fire three bullets at once.
+ * 
+ * @author Le Qi
+ */
 public class CheatPlayer extends Player {
-	/**
-	 * CheatPlayer is a subclass of the Player class. Objects of the class
-	 * will fire three bullets at once.
-	 * 
-	 * @author Le Qi
-	 */
 	
 	public CheatPlayer() {
 		super();

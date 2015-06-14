@@ -1,12 +1,12 @@
 package game;
 
+/**
+ * The SmartEnemy class is a subclass of the Enemy class. Enemies
+ * follow the player throughout the map.
+ * 
+ * @author Le Qi
+ */
 public class SmartEnemy extends Enemy {
-	/**
-	 * The SmartEnemy class is a subclass of the Enemy class. Enemies
-	 * follow the player throughout the map.
-	 * 
-	 * @author Le Qi
-	 */
 
 	public SmartEnemy() {
 		super();

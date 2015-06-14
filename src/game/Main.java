@@ -19,9 +19,9 @@ import javafx.stage.*;
  * start automatically and the mouse click will cause three bullets to 
  * fire instead of one, making the game significantly easier.
  *
- * @author	Le Qi
+ * @author leqi
+ *
  */
-
 public class Main extends Application {
 
 	private static final int NUM_FRAMES_PER_SECOND = 60;

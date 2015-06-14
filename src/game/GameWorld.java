@@ -1,6 +1,3 @@
-// This entire file is part of my masterpiece.
-// Le Qi
-
 package game;
 
 import java.util.*;
@@ -20,13 +17,13 @@ import javafx.scene.text.TextAlignment;
 import javafx.stage.Stage;
 import javafx.util.Duration;
 
+/**
+ * This class represents the game environment.
+ * 
+ * @author leqi
+ *
+ */
 public class GameWorld {
-
-	/**
-	 * This class represents the game environment.
-	 * 
-	 * @author	Le Qi
-	 */
 
 	private static final int NUM_ENEMIES = 5;
 	private static final int ARENA_SIZE = 500;

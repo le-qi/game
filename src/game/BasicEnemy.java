@@ -1,13 +1,13 @@
 package game;
 
+/**
+ * The BasicEnemy is a subclass of the Enemy class. The enemies move
+ * by initializing an initial speed in a diagonal direction and
+ * bouncing off the edges of the arena.
+ * 
+ * @author Le Qi
+ */
 public class BasicEnemy extends Enemy {
-	/**
-	 * The BasicEnemy is a subclass of the Enemy class. The enemies move
-	 * by initializing an initial speed in a diagonal direction and
-	 * bouncing off the edges of the arena.
-	 * 
-	 * @author Le Qi
-	 */
 
 	public BasicEnemy() {
 		super();

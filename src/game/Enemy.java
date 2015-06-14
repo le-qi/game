@@ -6,15 +6,15 @@ import javafx.scene.paint.Color;
 import javafx.scene.paint.Paint;
 import javafx.scene.shape.Circle;
 
+/**
+ * The class represents a single enemy, consisting of red circle shape
+ * with a specific location in the arena, as well as values for the
+ * x-velocity and y-velocity of the circle. Speeds and locations are
+ * adjusted using setter and getter methods.
+ * 
+ * @author Le Qi
+ */
 public abstract class Enemy {
-	/**
-	 * The class represents a single enemy, consisting of red circle shape
-	 * with a specific location in the arena, as well as values for the
-	 * x-velocity and y-velocity of the circle. Speeds and locations are
-	 * adjusted using setter and getter methods.
-	 * 
-	 * @author Le Qi
-	 */
 
 	private static final int ENEMY_SIZE = 10;
 	private static final Paint ENEMY_COLOR = Color.RED;

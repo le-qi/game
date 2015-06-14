@@ -3,15 +3,15 @@ package game;
 import javafx.scene.paint.Color;
 import javafx.scene.shape.Rectangle;
 
+/**
+ * The class represents a bullet object, with a specific rectangle
+ * shape on the image, and also firing at a specific bullet velocity
+ * in a specific direction. Getter and setter methods can be used to
+ * obtain bullet velocities and locations from the GameWorld class.
+ * 
+ * @author Le Qi
+ */
 public class Bullet {
-	/**
-	 * The class represents a bullet object, with a specific rectangle
-	 * shape on the image, and also firing at a specific bullet velocity
-	 * in a specific direction. Getter and setter methods can be used to
-	 * obtain bullet velocities and locations from the GameWorld class.
-	 * 
-	 * @author Le Qi
-	 */
 	
 	private static final int BULLET_SPEED = 10;
 	private static final int BULLET_LENGTH = 10;

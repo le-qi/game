@@ -7,19 +7,19 @@ import javafx.scene.paint.Color;
 import javafx.scene.paint.Paint;
 import javafx.scene.shape.Circle;
 
+/**
+ * This class represents the player that the game user controls. It
+ * has properties consisting of a blue circle image (and thus an x
+ * and y coordinate for location), a specific direction it is
+ * facing, and an indicator of whether the cheat code is enabled,
+ * allowing the player to fire multiple bullets. Getter and setter
+ * methods are used to determine and set parameters such as location
+ * and direction. Depending on whether the player is cheating, there
+ * are also two separate algorithms for firing.
+ * 
+ * @author Le Qi
+ */
 public abstract class Player {
-	/**
-	 * This class represents the player that the game user controls. It
-	 * has properties consisting of a blue circle image (and thus an x
-	 * and y coordinate for location), a specific direction it is
-	 * facing, and an indicator of whether the cheat code is enabled,
-	 * allowing the player to fire multiple bullets. Getter and setter
-	 * methods are used to determine and set parameters such as location
-	 * and direction. Depending on whether the player is cheating, there
-	 * are also two separate algorithms for firing.
-	 * 
-	 * @author Le Qi
-	 */
 	
 	private static final int PLAYER_SIZE = 15;
 	private static final int PLAYER_SPEED = 10;
