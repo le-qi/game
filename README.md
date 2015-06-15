@@ -1,7 +1,9 @@
 game
 ====
 
-First project for CompSci 308 Spring 2015
+CompSci 308 Spring 2015
+
+The program can be run by executing the game.jar file.
 
 How to play the game: The objective is to stay alive while shooting the enemies (werewolves represented as red circles). However, if any of the red circles comes in contact with your player (blue circles), then the game is over and you have lost. Using the arrow keys to navigate the player and the mouse click to shoot, you must shoot all of the enemies without getting hurt yourself. There are two different rounds (modes). In the first one, the enemies start moving randomly and simply bounce off the edges of the arena. In the second mode, the enemies know your location and follow you. Beat both of these levels to win the game.
 
